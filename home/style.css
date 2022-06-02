@@ -1,0 +1,295 @@
+.navbar1{
+    background-color: #316dc3;
+    margin: 0px;
+    padding: 0px;
+    height: 50px;
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.rtr{
+    line-height: 40px;
+    width: 50%;
+    font-size: 20px;
+    color: antiquewhite;
+}
+.trt{
+    padding-left: 150px;
+}
+.trt1{
+    padding-left: 10px;
+}
+.trt2{
+    padding-left: 10px;
+}
+.trt3{
+    padding-left: 10px;
+}
+.trt4{
+    padding-left: 10px;
+    color: rgb(153, 255, 0);
+}
+.rty{
+    line-height: 20px;
+    width: 50%;
+    color: rgb(0, 0, 0);
+    height: inherit;
+    margin-left: 100px;
+}
+.rty button{
+    border: 1px green;
+    color: green;
+    margin-top: 8px;
+    margin-left: 5px;
+}
+@media screen and (max-width:986px){
+    .navbar1{
+        display: block;
+    }
+    .rtr{
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+    .rty{
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+}
+.navbar2{
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    display: flex;
+    color: rgb(0, 0, 0);
+    margin-left: 300px;
+    position: -webkit-sticky;
+    position: sticky;
+}
+.list ul{
+    list-style-type: none;
+    display: flex;
+    margin-left: 100px;
+    margin-top: 20px;
+    font-size: 13px;
+}
+.list ul li {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.navbar3{
+    display: none;
+    color: black;
+}
+
+.img1{
+    width: 50%;
+}
+
+.img2
+{
+    width: 50%;
+    margin-left: 300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: right;
+}
+
+.img2 img
+{
+    float: right;
+}
+
+@media screen and (max-width:1331px){
+    .navbar2{
+        margin-left: 100px;
+    }
+}
+
+@media screen and (max-width:1034px){
+    .navbar2{
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width:1107px){
+    .navbar2{
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width:1011px){
+    .navbar2{
+        margin-left: 0px;
+    }
+    .list ul{
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width:961px){
+    .navbar2{
+        margin-left: 0px;
+    }
+    .list ul{
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width:924px){
+    .navbar2{
+        display: none;
+    }
+    .navbar3{
+        display: flex;
+    }
+}
+
+.iol
+{
+    display: none;
+    height: 250px;
+    overflow-y: scroll;
+}
+.poil:active .iol{
+    display: block;
+}
+.poil:hover .iol{
+    display: block;
+}
+.list1{
+    background-color: #316dc3;
+    border-radius: 20px;
+    color: white;
+
+}
+.list ul li:hover {
+   background-color: #316dc3;
+   border-radius: 20px;
+   color: white;
+}
+.olip:hover{
+    background-color: #316dc3;
+     color: white;
+     text-indent: 70px;
+}
+.uilo{
+    box-shadow: 0px 0px 70px rgb(0, 0, 0);
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 60px;
+  }
+.kil{
+    height: 960px;
+    background-color: #316dc3;
+}
+.one{
+    width: 25%;
+    text-align: center;
+    justify-content: center;
+    padding-top: 80px;
+}
+.two{
+    width: 25%;
+    text-align: center;
+    justify-content: center;
+    padding-top: 80px;
+}
+.three{
+    width: 25%;
+    text-align: center;
+    justify-content: center;
+    padding-top: 80px;
+}
+.four{
+    width: 25%;
+    text-align: center;
+    justify-content: center;
+    padding-top: 80px;
+}
+.kilo{
+    display: flex;
+}
+.one p{
+   font-size: 40px;
+   color: white;
+}
+.two p{
+    font-size: 40px;
+    color: white;
+}
+.three p{
+    font-size: 40px;
+    color: white;
+}
+.four p{
+    font-size: 40px;
+    color: white;
+}
+.one .der{
+    font-size: 15px;
+    color: white;
+ }
+ .two .der{
+     font-size: 15px;
+     color: white;
+ }
+ .three .der{
+     font-size: 15px;
+     color: white;
+ }
+ .four .der{
+     font-size: 15px;
+     color: white;
+ }
+ .one .der strong{
+    font-size: 15px;
+    color: greenyellow;
+ }
+ .two .der strong{
+     font-size: 15px;
+     color: greenyellow;
+ }
+ .three .der strong{
+     font-size: 15px;
+     color: greenyellow;
+ }
+ .four .der strong{
+     font-size: 15px;
+     color: greenyellow;
+ }
+@media screen and(max-width:998px){
+    .kilo{
+        display: block;
+    }
+    .one{
+        display: block;
+    }
+    .two{
+        display: block;
+    }
+    .three{
+        display: block;
+    }
+    .four{
+        display: block;
+    }
+    .kil{
+        display: block;
+    }
+}
