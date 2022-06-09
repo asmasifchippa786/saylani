@@ -1,0 +1,45 @@
+.tyui{
+    display: flex;
+    height: 50%;
+
+} 
+.bty{
+    display: flex;
+    height: 50%;
+
+} 
+.uilopty
+{
+    height: 100%;
+}
+.uilkip
+{
+    height: 170px;
+    width: 300px;
+    box-shadow: 0px 5px 50px grey;
+    margin: 30px;
+    padding-top: 30px;
+}
+.tyhun
+{
+    height: 170px;
+    width: 300px;
+    box-shadow: 0px 5px 50px grey;
+    margin: 30px;
+    padding-top: 30px;
+}
+@media screen and (max-width:924px){
+    .tyui{
+        display: block;
+
+    }
+    .bty{
+        display: block;
+    }
+    .tyhun{
+        margin-left: 100px;
+    }
+    .uilkip{
+        margin-left: 100px;
+    }
+}
